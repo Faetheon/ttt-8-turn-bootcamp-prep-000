@@ -30,7 +30,7 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.strip
   user_input = input_to_index(user_input)
-  while input_to_index(user_input) === -1
+  while user_input === -1
     puts "Please enter 1-9"
     user_input = gets.strip
     user_input = input_to_index(user_input)
