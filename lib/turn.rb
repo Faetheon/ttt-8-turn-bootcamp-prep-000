@@ -17,3 +17,9 @@ def valid_move?(board, index)
     return true
   end
 end
+
+def move(board, index, x = "X")
+  if valid_move?(board, index) === false
+    return board[index] = x
+  end
+end
