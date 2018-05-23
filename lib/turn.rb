@@ -1,3 +1,5 @@
+user_input = ""
+
 def display_board board
 puts (" #{board[0]} | #{board[1]} | #{board[2]} ")
 puts ("-----------")
@@ -26,5 +28,5 @@ end
 
 def turn 
   puts "Please enter 1-9:"
-  
+  user_input = gets.strip
 end
